@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:#231;
+}
+h1{
+    color:white;
+    font-family: cursive;
+    font-size: 50px;
+}
+small{
+    color: white;
+    font-family: monospace;
+}
+.container{
+    border: 1px solid black;
+    display: grid;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    background-color:#fff;
+}
+.item{
+    border:1px solid black;
+}
+#myForm{
+    position: 5px;
+    top: 30px;
+}
+input{
+    margin: 5px;
+}
