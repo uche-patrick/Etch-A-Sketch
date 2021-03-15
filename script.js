@@ -60,8 +60,8 @@ function clearGrid(){
 
 // reset grid color to default
 function cleanGrid(){
-    for(var i = 0; i < childDivLength; i++){
-        div.children[i].style.backgroundColor = "#fff"
-    }
+    for(var items in div.children){
+        div.children[items].style.backgroundColor = "#fff";
+ }
 }
 cleanBtn.addEventListener("click", cleanGrid);
